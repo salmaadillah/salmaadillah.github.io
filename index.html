@@ -27,11 +27,12 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-link" href="#">About</a>
-      <a class="nav-link" href="#">Portfolio</a>
-      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+    <div class="navbar-nav mr-auto">
+              <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link active" href="#about">About</a>
+              <a class="nav-link active" href="#portfolio">Portfolio</a>
+              <a class="nav-link active" href="#certificates">Certificates</a>
+              <a class="nav-link active" href="#accomplishments">Accomplishments</a>
     </div>
   </div>
   </div>
@@ -41,43 +42,48 @@
 <!--JUMBOTRON-->
 <div class="jumbotron jumbotron-fluid bg-info">
   <div class="container text-center">
-    <img src="img/fotoProfil.jpg" width="25%" class="rounded-circle img-thumbnail">
+    <img src="img/fotoProfil2.png" width="25%" class="rounded-circle img-thumbnail mb-2">
     <h3 class="display-5">Salmaa Dillah Ikbaar</h3>
     <p class="lead">Android Programming and Website Programming Learner</p>
   </div>
 </div>
 
 <!--LAYOUTING-->
-<section id="about" class="about">
-<div class="container">
-    <div class="row">
-        <div class="col text-center">
-            <h3>About</h3>
+<section class="about">
+<div class="container h-auto">
+    <div class="row justify-content-center">
+        <div class="col-md-0.75 text-center pr-1">
+            <img src="img/about.png" width="25">
+        </div>
+        <div class="col-md-0.75 text-center pl-1">
+            <h3 id="about">About</h3>
         </div>
     </div>
 
     <div class="row">
         <div class="col text-center">
-            <p>I am a final year student at IPB University. I am working on my thesis and now I am looking for internship program to prepare my working life. I am interested in research and porgramming. I always try the best to reach the goal of my project.</p>
+            <p>I am a final year student at IPB University majoring Agricultural and Biosystem Engineering. My specialization is Agricultural Information and System Engineering. I am working on my thesis and now I am looking for internship program to prepare my working life. Besides, I'm improving my skills in programming and digital marketing. I have experienced in developing offline android application by using Android Studio and making my own portfolio website by using Bootstrap 4 as the framework. I always try my best to reach the goal of my project.</p>
         </div>
     </div>
-    
 </div>
 </section>
 
 <!--PORTFOLIO-->
-<section id="portfolio" class="portfolio bg-light pb-4">
-<div class="container text-center">
-    <div class="row mb-4 pt-4">
-        <div class="col text-center">
-            <h3>Portfolio</h3>
+<section class="portfolio">
+<div class="container">
+    <div class="row mb-4 pt-4 justify-content-center">
+        <div class="col-md-0.75 text-center pr-1 pt-1">
+            <img src="img/portfolio.png" width="25">
+        </div>
+        <div class="col-md-0.75 text-center pl-1">
+            <h3 id="portfolio">Portfolio</h3>
         </div>
     </div>
 
     <div class="row mb-4">
         <div class="col-md">
             <div class="card">
-              <img src="img/portfolio1.jpg" class="card-img-top" alt="...">
+              <img src="img/portfolio1.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">I developed this website use Sublime Text as the code editor and Bootsrap 4 as framework to display my portfolio.</p>
               </div>
@@ -86,18 +92,9 @@
 
         <div class="col-md">
             <div class="card">
-              <img src="img/portfolio2.jpg" class="card-img-top" alt="...">
+              <img src="img/portfolio2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">I developed Financial Analysis Application for Sweet Potato Products based on Android by using Android Studio.</p>
-              </div>
-            </div>
-        </div>
-
-        <div class="col-md">
-            <div class="card">
-              <img src="img/thumbs/3.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
         </div>
@@ -105,16 +102,125 @@
 </div>
 </section>
 
-<section id="contact" class="contact pb-5">
-    <div class="container">
-        <div class="row pt-4 mb-4">
-            <div class="col text-center">
-                <h3>Contact Me</h3>
+<section class="certificates">
+<div class="container">
+    <div class="row mb-4 pt-4 justify-content-center">
+        <div class="col-md-0.75 text-center pr-1 pt-1">
+            <img src="img/certificate.png" width="25">
+        </div>
+        <div class="col-md-0.75 text-center pl-1">
+            <h3 id="certificates">Certificates</h3>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md">
+            <div class="card">
+              <img src="img/sertifikat/s_sql.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">I have learnt about basic concpets, filtering, and functions of sql database from Sololearn online course website.</p>
+              </div>
             </div>
         </div>
 
+        <div class="col-md">
+            <div class="card">
+              <img src="img/sertifikat/s_android.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">I have learnt about basic concepts about android application development based on java language</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-md">
+            <div class="card">
+              <img src="img/sertifikat/s_html.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">I have learnt about writing HTML code, set up HTML document, and create simple webpage.</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md">
+            <div class="card">
+              <img src="img/sertifikat/s_css.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">I have learnt about how HTML and CSS work together, applied CSS styling to HTML elements, and built website that looks good.</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-md">
+            <div class="card">
+              <img src="img/sertifikat/s_digitalmarketing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">I have learnt about the transition of marketing from conventional to digital world. I also learnt how to increase conversions and sales with real-wolrd techniques and how to use social media to grow up a business.</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-md">
+            <div class="card">
+              <img src="img/sertifikat/s_digitalmarketinga.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">I have learnt about how to find the right audience and performing market research and how to do A/B testing.</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</section>
+
+<section class="accomplishments">
+<div class="container">
+    <div class="row mb-4 pt-4 justify-content-center">
+        <div class="col-md-0.75 text-center pr-1 pt-1">
+            <img src="img/accomplishment.png" width="25">
+        </div>
+        <div class="col-md-0.75 text-center pl-1">
+            <h3 id="accomplishments">Accomplishments</h3>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md">
+            <div class="card">
+              <img src="img/acc1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Certificate of 2nd Winner of National Scientific Paper Competition Education Fair UNS 2019</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class="card">
+              <img src="img/acc2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Moment when I got 2nd Winner and Best Presenter of National Scientific Paper Competition Education Fair UNS 2019</p>
+              </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</section>
+
+<section class="contact pb-5">
+    <div class="container">
+        <div class="row mb-4 pt-4 justify-content-center">
+        <div class="col-md-0.75 text-center pr-1 pb-6">
+            <img src="img/contact.png" width="25">
+        </div>
+        <div class="col-md-0.75 text-center pl-1 pt-2">
+            <h3 id="contact">Contact Me</h3>
+        </div>
+    </div>
+
         <div class="row justify-content-center">
-            <div class="col-lg-4">
+            <div class="col-lg-5">
                 <div class="card text-white bg-info mb-3 text-center">
                   <div class="card-body">
                     <h5 class="card-title">Contact Me</h5>
@@ -124,32 +230,17 @@
 
                 <ul class="list-group mb-4">
                   <li class="list-group-item"><h3>Location</h3></li>
-                  <li class="list-group-item">Kavling DKI Jl Purwa II</li>
-                  <li class="list-group-item">Jagakarsa, South Jakarta</li>
+                  <li class="list-group-item">Kavling DKI Jl Purwa II Jagakarsa, South Jakarta</li>
                 </ul>
             </div>
 
-            <div class="col-lg-6">
-                <form>
-                  <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name">
-                  </div>
-
-                  <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" class="form-control" id="email">
-                  </div>
-
-                  <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea name="message", id="message", class="form-control"></textarea>
-                  </div>
-
-                  <div class="form-group">
-                      <button type="button" class="btn btn-info">Send</button>
-                  </div>
-                </form>
+            <div class="col-lg-5">
+                <ul class="list-group mb-4">
+                  <li class="list-group-item"><h3>Email</h3></li>
+                  <li class="list-group-item">salmaadillah@gmail.com</li>
+                  <li class="list-group-item"><h3>LinkedIn</h3></li>
+                  <li class="list-group-item">www.linkedin.com/in/salmaaikbaar</li>
+                </ul>
             </div>
         </div>
     </div>
